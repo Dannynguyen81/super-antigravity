@@ -1,6 +1,6 @@
 # ==============================================================================
 # Script: install-plugins-global.ps1
-# Mục đích: Cài đặt toàn bộ 10 Plugins của SUPER-ANTIGRAVITY vào Antigravity Toàn Cục
+# Mục đích: Cài đặt toàn bộ 9 Plugins của SUPER-ANTIGRAVITY vào Antigravity Toàn Cục
 # Tương thích: Windows 10 / Windows 11 (PowerShell 5.1+)
 # ==============================================================================
 
