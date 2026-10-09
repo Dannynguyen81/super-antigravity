@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetDarkTech",
+  "_mota": "TỐI + LẠNH + HIỆN ĐẠI. Slide công nghệ, AI, sản phẩm số. Nền tối, accent cyan/tím. Lưu ý: dk1 luôn là MÀU CHỮ CHÍNH (ở preset tối nó là màu sáng), lt1 luôn là MÀU NỀN CHÍNH.",
+  "colors": {
+    "dk1": "E6E6F0",
+    "lt1": "1A1B26",
+    "dk2": "9BA3C0",
+    "lt2": "24263B",
+    "accent1": "00B4D8",
+    "accent2": "7C3AED",
+    "accent3": "48CAE4",
+    "accent4": "F72585",
+    "accent5": "4CC9A4",
+    "accent6": "FCA311"
+  },
+  "fonts": {
+    "heading": "Segoe UI",
+    "body": "Segoe UI"
+  },
+  "assets": {}
+}

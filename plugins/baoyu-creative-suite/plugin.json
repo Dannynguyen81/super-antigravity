@@ -1,0 +1,17 @@
+﻿{
+    "description":  "Bộ 13 công cụ sáng tạo nội dung, visual SVG diagram, infographic, slide deck, comic, bóc tách URL và dịch thuật đỉnh cao của Baoyu",
+    "name":  "baoyu-creative-suite",
+    "version":  "1.0.0",
+    "keywords":  [
+                     "baoyu",
+                     "creative",
+                     "svg",
+                     "diagram",
+                     "infographic",
+                     "comic",
+                     "translation",
+                     "slide-deck",
+                     "markdown",
+                     "youtube"
+                 ]
+}

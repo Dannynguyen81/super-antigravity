@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetModernBlue",
+  "_mota": "Preset HIỆN ĐẠI - startup, SME, tài liệu quy trình nội bộ.",
+  "colors": {
+    "dk1": "1A1A1A",
+    "lt1": "FFFFFF",
+    "dk2": "595959",
+    "lt2": "F5F5F5",
+    "accent1": "1565C0",
+    "accent2": "0D47A1",
+    "accent3": "42A5F5",
+    "accent4": "26A69A",
+    "accent5": "FFA726",
+    "accent6": "78909C"
+  },
+  "fonts": {
+    "heading": "Arial",
+    "body": "Arial"
+  },
+  "assets": {}
+}

@@ -1,0 +1,4 @@
+{"action": "create", "name": "learned-rule-3144", "tier": "rule", "reason": "Phát hiện phản hồi uốn nắn từ user: <USER_REQUEST>\ncài đặt skill https://github.com/viettranx/3d", "request_num": 2}
+{"action": "create", "name": "learned-rule-4623", "tier": "rule", "reason": "Phát hiện phản hồi uốn nắn từ user: <USER_REQUEST>\nreview repo https://github.com/obra/superpowe", "request_num": 7}
+{"action": "create", "name": "learned-rule-3790", "tier": "rule", "reason": "Phát hiện phản hồi uốn nắn từ user: <USER_REQUEST>\ncài đặt repo https://github.com/freestylefly/", "request_num": 8}
+{"action": "create", "name": "learned-rule-4191", "tier": "rule", "reason": "Phát hiện phản hồi uốn nắn từ user: <USER_REQUEST>\ncài đặt repo https://github.com/JimLiu/baoyu-", "request_num": 19}

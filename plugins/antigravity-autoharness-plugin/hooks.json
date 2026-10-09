@@ -1,0 +1,31 @@
+{
+  "agy-autoharness": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python src/hook_dispatch.py --event PreInvocation",
+        "timeout": 15
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python src/hook_dispatch.py --event PostToolUse",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python src/hook_dispatch.py --event Stop",
+        "timeout": 60
+      }
+    ]
+  }
+}

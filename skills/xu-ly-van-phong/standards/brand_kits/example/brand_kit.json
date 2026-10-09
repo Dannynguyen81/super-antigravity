@@ -1,0 +1,24 @@
+{
+  "company_name": "CongTyABC",
+  "_mota": "Brand kit GIẢ ĐỊNH chỉ dùng để test script Generator. Không dùng cho tài liệu thật của user.",
+  "colors": {
+    "dk1": "000000",
+    "lt1": "FFFFFF",
+    "dk2": "333333",
+    "lt2": "F8F9FA",
+    "accent1": "C22620",
+    "accent2": "D4AF37",
+    "accent3": "2E75B6",
+    "accent4": "548235",
+    "accent5": "BF8F00",
+    "accent6": "2F5597"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "assets": {
+    "logo": "assets/logo.png",
+    "background": "assets/nen_mau.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetEditorialBurgundy",
+  "_mota": "Preset EDITORIAL - tài liệu review, phản biện, báo cáo phân tích chuyên sâu.",
+  "colors": {
+    "dk1": "1A1A1A",
+    "lt1": "FFFFFF",
+    "dk2": "555555",
+    "lt2": "F2F2F2",
+    "accent1": "7B241C",
+    "accent2": "8B4513",
+    "accent3": "1B5E4B",
+    "accent4": "C0504D",
+    "accent5": "BF8F00",
+    "accent6": "2F5597"
+  },
+  "fonts": {
+    "heading": "Arial",
+    "body": "Arial"
+  },
+  "assets": {}
+}

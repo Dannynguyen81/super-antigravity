@@ -1,0 +1,14 @@
+{
+  "spellcheck": false,
+  "livePreview": true,
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "autoConvertHtml": true,
+  "useTab": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "10-inbox",
+  "attachmentFolderPath": "10-inbox"
+}

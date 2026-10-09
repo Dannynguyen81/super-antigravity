@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetLuxuryDarkGold",
+  "_mota": "TỐI + SANG TRỌNG. Bìa sách, pitch deck cao cấp, thương hiệu premium. Nền đen, vàng đồng.",
+  "colors": {
+    "dk1": "F0EAD6",
+    "lt1": "121212",
+    "dk2": "C9C2AD",
+    "lt2": "1E1C18",
+    "accent1": "D4AF37",
+    "accent2": "8B7325",
+    "accent3": "F5E6B8",
+    "accent4": "A67C52",
+    "accent5": "6B705C",
+    "accent6": "936639"
+  },
+  "fonts": {
+    "heading": "Georgia",
+    "body": "Arial"
+  },
+  "assets": {}
+}

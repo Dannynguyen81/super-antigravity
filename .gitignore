@@ -1,0 +1,51 @@
+# Operating System & Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Secrets & Environment Variables
+.env
+.env.*
+*.pem
+*.key
+*.cert
+credentials.json
+
+# AI Agent Session Logs & Cache
+.cache/
+cache/
+file-history/
+paste-cache/
+session-env/
+sessions/
+shell-snapshots/
+backups/
+*.log
+
+# Trash & Archives
+_Delete/
+50-INBOX/_archive/

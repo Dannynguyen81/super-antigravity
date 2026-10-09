@@ -1,0 +1,7 @@
+{
+  "name": "antigravity-autoharness-plugin",
+  "version": "1.0.0",
+  "description": "Self-learning, tri-tier skill & rule distillation layer for Google Antigravity with empirical lifecycle and zero external dependencies.",
+  "author": "Antigravity Engineering",
+  "homepage": "https://antigravity.google"
+}

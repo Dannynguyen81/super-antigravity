@@ -1,0 +1,13 @@
+﻿{
+    "description":  "Complete Cloudflare developer suite: Workers, Wrangler, Agents SDK, Durable Objects, and Remote MCP",
+    "name":  "cloudflare-suite",
+    "version":  "1.0.0",
+    "keywords":  [
+                     "cloudflare",
+                     "workers",
+                     "wrangler",
+                     "durable-objects",
+                     "agents-sdk",
+                     "serverless"
+                 ]
+}

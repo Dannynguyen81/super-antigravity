@@ -1,0 +1,8 @@
+{
+  "name": "learned-rule-4191",
+  "tier": "rule",
+  "created_by": "agent",
+  "created_at_request": 19,
+  "evidence_reason": "Phát hiện phản hồi uốn nắn từ user: <USER_REQUEST>\ncài đặt repo https://github.com/JimLiu/baoyu-",
+  "evidence_hash": "c093ae05fd43"
+}

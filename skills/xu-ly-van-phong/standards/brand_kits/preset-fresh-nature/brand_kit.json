@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetFreshNature",
+  "_mota": "SÁNG + MÁT (xanh lá). Nông nghiệp, sức khỏe, môi trường, bền vững.",
+  "colors": {
+    "dk1": "1B3A2A",
+    "lt1": "FFFFFF",
+    "dk2": "5B7268",
+    "lt2": "F1F8F2",
+    "accent1": "2E7D32",
+    "accent2": "1B5E20",
+    "accent3": "66BB6A",
+    "accent4": "9CCC65",
+    "accent5": "00897B",
+    "accent6": "8D6E63"
+  },
+  "fonts": {
+    "heading": "Segoe UI",
+    "body": "Calibri"
+  },
+  "assets": {}
+}

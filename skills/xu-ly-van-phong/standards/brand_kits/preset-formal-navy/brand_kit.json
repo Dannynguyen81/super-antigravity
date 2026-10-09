@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetFormalNavy",
+  "_mota": "Preset TRANG TRỌNG - đề xuất cấp chiến lược, tập đoàn, tài liệu gửi lãnh đạo.",
+  "colors": {
+    "dk1": "000000",
+    "lt1": "FFFFFF",
+    "dk2": "595959",
+    "lt2": "F2F2F2",
+    "accent1": "1F3864",
+    "accent2": "C00000",
+    "accent3": "1B5E4B",
+    "accent4": "8B4513",
+    "accent5": "2E5B97",
+    "accent6": "8496B0"
+  },
+  "fonts": {
+    "heading": "Times New Roman",
+    "body": "Times New Roman"
+  },
+  "assets": {}
+}

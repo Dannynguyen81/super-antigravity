@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetClassicIvory",
+  "_mota": "SÁNG + CỔ ĐIỂN. Sách, chứng chỉ, thư ngỏ, tài liệu di sản. Nền ngà, xanh rêu, vàng đồng, serif.",
+  "colors": {
+    "dk1": "2B2416",
+    "lt1": "FFFDF5",
+    "dk2": "6B5E43",
+    "lt2": "F5EFDF",
+    "accent1": "2C4A3B",
+    "accent2": "B08D2E",
+    "accent3": "6E4B3A",
+    "accent4": "8A8B6C",
+    "accent5": "4E3822",
+    "accent6": "A67B5B"
+  },
+  "fonts": {
+    "heading": "Times New Roman",
+    "body": "Times New Roman"
+  },
+  "assets": {}
+}

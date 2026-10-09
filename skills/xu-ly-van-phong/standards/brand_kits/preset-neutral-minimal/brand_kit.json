@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetNeutralMinimal",
+  "_mota": "TRUNG TÍNH + TỐI GIẢN. Kiến trúc, luật, tư vấn, tài liệu kỹ thuật. Thang xám + 1 điểm nhấn xanh thẫm.",
+  "colors": {
+    "dk1": "111111",
+    "lt1": "FFFFFF",
+    "dk2": "6E6E6E",
+    "lt2": "F2F2F2",
+    "accent1": "2B2B2B",
+    "accent2": "1A5276",
+    "accent3": "888888",
+    "accent4": "B5B5B5",
+    "accent5": "4A4A4A",
+    "accent6": "DDDDDD"
+  },
+  "fonts": {
+    "heading": "Arial",
+    "body": "Arial"
+  },
+  "assets": {}
+}

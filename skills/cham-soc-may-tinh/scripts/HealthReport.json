@@ -1,0 +1,35 @@
+﻿{
+    "Timestamp":  "2026-09-17 23:02:06",
+    "HardwareSummary":  {
+                            "RAM_UsedPercent":  42.9,
+                            "DiskC_FreeGB":  491.28,
+                            "RAM_TotalGB":  31.79,
+                            "DiskC_FreePercent":  51.6,
+                            "Chassis":  "Desktop Tower"
+                        },
+    "CoreExecution_90":  {
+                             "TempCacheMB":  0,
+                             "PrintSpoolStuck":  0,
+                             "SSDReTrimSupported":  true,
+                             "SQLiteSizeMB":  2309.33,
+                             "SQLiteDBCount":  246,
+                             "WinSxSUpdateMB":  339.81
+                         },
+    "StrategicAdvisory_10":  [
+                                 {
+                                     "Status":  "OPTIMAL",
+                                     "Domain":  "Hardware",
+                                     "Assessment":  "Dung lượng RAM 31.79 GB (dùng 42.9%) và ổ C: (còn trống 51.6%) ở trạng thái ổn định."
+                                 },
+                                 {
+                                     "Status":  "EXCELLENT",
+                                     "Domain":  "Network",
+                                     "Assessment":  "Độ trễ phản hồi DNS 1.1.1.1 là 20 ms (rất nhanh)."
+                                 },
+                                 {
+                                     "Status":  "PROTECTED",
+                                     "Domain":  "Security \u0026 Boot",
+                                     "Assessment":  "Cấu hình khởi động an toàn WHQL Driver và WMI nguyên vẹn. Không có dấu hiệu can thiệp lạ."
+                                 }
+                             ]
+}

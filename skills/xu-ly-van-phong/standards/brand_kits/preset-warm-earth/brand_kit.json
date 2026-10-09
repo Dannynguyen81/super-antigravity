@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetWarmEarth",
+  "_mota": "SÁNG + NÓNG (đất ấm). F&B, thủ công, giáo dục, cộng đồng. Terracotta, nâu, kem.",
+  "colors": {
+    "dk1": "3E2C23",
+    "lt1": "FFFFFF",
+    "dk2": "7A6455",
+    "lt2": "F7F1E8",
+    "accent1": "C65D3B",
+    "accent2": "8B5E3C",
+    "accent3": "D9A05B",
+    "accent4": "5F7161",
+    "accent5": "A44A3F",
+    "accent6": "E0C097"
+  },
+  "fonts": {
+    "heading": "Georgia",
+    "body": "Arial"
+  },
+  "assets": {}
+}

@@ -1,0 +1,21 @@
+{
+  "company_name": "PresetVibrantCoral",
+  "_mota": "SÁNG + NÓNG + NĂNG ĐỘNG. Marketing, sự kiện, sản phẩm trẻ. Coral, cam, navy tương phản.",
+  "colors": {
+    "dk1": "1D3557",
+    "lt1": "FFFFFF",
+    "dk2": "5C6B7A",
+    "lt2": "FDF3F0",
+    "accent1": "FF6B5B",
+    "accent2": "264653",
+    "accent3": "FFA552",
+    "accent4": "2A9D8F",
+    "accent5": "E76F51",
+    "accent6": "F4A261"
+  },
+  "fonts": {
+    "heading": "Verdana",
+    "body": "Arial"
+  },
+  "assets": {}
+}
