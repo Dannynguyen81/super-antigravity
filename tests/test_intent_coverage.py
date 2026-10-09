@@ -17,8 +17,6 @@ class IntentCoverageTest(unittest.TestCase):
     def test_skills_found(self) -> None:
         self.assertGreater(len(skill_names()), 0)
 
-    # TẠM THỜI: còn 64 skill chưa có trong bảng ý định. Xóa dòng này sau khi bổ sung đủ.
-    @unittest.expectedFailure
     def test_every_skill_is_routed(self) -> None:
         for router in ROUTERS:
             text = (ROOT / router).read_text(encoding="utf-8")
