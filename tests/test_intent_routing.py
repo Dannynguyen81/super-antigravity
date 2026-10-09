@@ -95,9 +95,9 @@ class SampleRoutingTest(unittest.TestCase):
         ("tôi muốn rút bài học từ phiên này", "learn"),
         ("review pr số 12", "code-review-skill"),
         ("dọn test thừa trong dự án", "test-audit"),
-        ("tạo thay đổi mới cho module báo cáo", "openspec-new-change"),
-        ("lưu trữ thay đổi đã xong", "openspec-archive-change"),
-        ("xác minh thay đổi trước khi ship", "openspec-verify-change"),
+        ("openspec tạo thay đổi mới cho module báo cáo", "openspec-new-change"),
+        ("openspec lưu trữ thay đổi đã xong", "openspec-archive-change"),
+        ("openspec xác minh thay đổi trước khi ship", "openspec-verify-change"),
         ("làm giao diện tối giản", "minimalist-ui"),
         ("nén ảnh banner này", "baoyu-compress-image"),
         ("markdown sang html cho wechat", "baoyu-markdown-to-html"),
@@ -121,7 +121,7 @@ class SampleRoutingTest(unittest.TestCase):
         ("merge pdf files", "pdf"),
         ("investigate error in payments", "investigate"),
         ("review pr 12", "code-review-skill"),
-        ("create new change for reports", "openspec-new-change"),
+        ("openspec create new change for reports", "openspec-new-change"),
         ("compress image before upload", "baoyu-compress-image"),
         ("improve web performance, check lcp score", "web-perf"),
         ("build mcp server on cloudflare", "building-mcp-server-on-cloudflare"),
@@ -145,6 +145,10 @@ class SampleRoutingTest(unittest.TestCase):
     def test_unrelated_utterance_matches_nothing(self) -> None:
         self.assertEqual(route("AGENTS.md", "hôm nay trời đẹp quá"), [])
         self.assertEqual(route("AGENTS.en.md", "what a lovely day"), [])
+
+    def test_generic_phrases_do_not_hit_openspec(self) -> None:
+        for router, text in (("AGENTS.md", "cập nhật thay đổi trong báo cáo"), ("AGENTS.en.md", "update change in the report")):
+            self.assertFalse(any("openspec" in t for t in route(router, text)), router)
 
     def test_case_insensitive(self) -> None:
         self.assertTrue(route("AGENTS.md", "TRA CỨU QUY TRÌNH"))

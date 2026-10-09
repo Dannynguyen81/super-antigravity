@@ -81,25 +81,25 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"continuous learning", "extract reusable patterns"* | `elite-workflows-and-taste` (`continuous-learning`) | Automatically extract reusable patterns from sessions and save them as skills |
 | *"investigate error", "find root cause", "systematic debugging"* | `elite-workflows-and-taste` (`investigate`) | Debug systematically and investigate the root cause |
 | *"get to know a new project", "read the whole codebase"* | `elite-workflows-and-taste` (`learn-codebase`) | Read every source file to prime an unfamiliar codebase before working |
-| *"map feature flows", "find duplicated logic"* | `elite-workflows-and-taste` (`pathfinder`) | Map feature flowcharts, find duplicated concerns and propose unification |
+| *"map feature flows", "find duplicated logic", "codebase map"* | `elite-workflows-and-taste` (`pathfinder`) | Map feature flowcharts, find duplicated concerns and propose unification |
 | *"design plan review", "designer's view"* | `elite-workflows-and-taste` (`plan-design-review`) | Interactive plan review from a designer's perspective |
 | *"developer experience review", "devex review"* | `elite-workflows-and-taste` (`plan-devex-review`) | Interactive plan review of the developer experience |
 | *"review pr", "evaluate pull request", "review source code"* | `elite-workflows-and-taste` (`code-review-skill`) + `developer-power-skills` (`bmad-os-review-pr`) | Review pull requests and source code against a review checklist |
 | *"remove redundant tests", "duplicate tests", "audit tests"* | `elite-workflows-and-taste` (`test-audit`) | Find low-value or duplicate tests and the test-only code they keep alive |
 | *"coding standards", "typescript conventions"* | `elite-workflows-and-taste` (`coding-standards`) | Apply coding standards for TypeScript, JavaScript, React and Node.js |
-| *"agent cost report", "token cost"* | `elite-workflows-and-taste` (`agent-cost-report`) | Produce a periodic agent cost report from transcripts and list prices |
+| *"agent cost report", "token cost", "weekly agent cost"* | `elite-workflows-and-taste` (`agent-cost-report`) | Produce a periodic agent cost report from transcripts and list prices |
 | *"enforce full code", "ban truncated code"* | `elite-workflows-and-taste` (`full-output-enforcement`) | Enforce complete code generation and ban placeholder patterns |
 | *"security check for new login", "handle user input", "manage secrets"* | `elite-workflows-and-taste` (`security-review`) | Security review for authentication, user input, secrets and API endpoints |
-| *"make a decision", "compare options"* | `developer-power-skills` (`make-decision`) | Analyze and decide between options |
-| *"test web app", "automated browser testing"* | `developer-power-skills` (`webapp-testing`) | Test web applications automatically in a browser |
+| *"decision matrix", "analyze options"* | `developer-power-skills` (`make-decision`) | Analyze and decide between options |
+| *"test web app", "playwright", "browser e2e test"* | `developer-power-skills` (`webapp-testing`) | Test web applications automatically in a browser |
 | *"test patterns", "testing strategy"* | `antigravity-kit-plugin` (`testing-patterns`) | Apply testing patterns and strategy |
 | *"create a new skill", "write a skill"* | `developer-power-skills` (`skill-creator`) | Guide for creating or updating a skill |
-| *"build mcp server", "write mcp"* | `developer-power-skills` (`mcp-builder`) | Build an MCP server |
-| *"create new change", "continue change"* | `openspec-plugin` (`openspec-new-change` / `openspec-continue-change`) | Start a new OpenSpec change or continue one in progress |
-| *"fast-forward change", "update change"* | `openspec-plugin` (`openspec-ff-change` / `openspec-update-change`) | Fast-forward a change's artifacts or update an existing change |
-| *"verify change", "sync specs"* | `openspec-plugin` (`openspec-verify-change` / `openspec-sync-specs`) | Verify a change was implemented correctly and sync delta specs into main specs |
-| *"archive change", "bulk archive changes"* | `openspec-plugin` (`openspec-archive-change` / `openspec-bulk-archive-change`) | Archive one or many completed OpenSpec changes |
-| *"explore change", "get started with openspec"* | `openspec-plugin` (`openspec-explore` / `openspec-onboard`) | Explore ideas before changing or onboard to OpenSpec |
+| *"mcp builder", "write local mcp"* | `developer-power-skills` (`mcp-builder`) | Build an MCP server |
+| *"openspec create new change", "openspec continue change"* | `openspec-plugin` (`openspec-new-change` / `openspec-continue-change`) | Start a new OpenSpec change or continue one in progress |
+| *"openspec fast-forward change", "openspec update change"* | `openspec-plugin` (`openspec-ff-change` / `openspec-update-change`) | Fast-forward a change's artifacts or update an existing change |
+| *"openspec verify change", "sync specs"* | `openspec-plugin` (`openspec-verify-change` / `openspec-sync-specs`) | Verify a change was implemented correctly and sync delta specs into main specs |
+| *"openspec archive change", "openspec bulk archive"* | `openspec-plugin` (`openspec-archive-change` / `openspec-bulk-archive-change`) | Archive one or many completed OpenSpec changes |
+| *"openspec explore change", "get started with openspec"* | `openspec-plugin` (`openspec-explore` / `openspec-onboard`) | Explore ideas before changing or onboard to OpenSpec |
 
 ### 🎨 Group 3: UI, Graphics & Content Creation (Baoyu & UI Pro)
 | User phrasing / need | Plugin / skill activated | Agent action |
@@ -117,14 +117,14 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"knowledge comic", "draw comic", "illustrate story"* | `baoyu-creative-suite` (`baoyu-comic`) | Write educational comic scripts and illustrated panels |
 | *"xiaohongshu cards", "xhs card", "create image card series"* | `baoyu-creative-suite` (`baoyu-xhs-images`) | Design a series of XHS-style infographic cards |
 | *"minimalist interface", "editorial style"* | `elite-workflows-and-taste` (`minimalist-ui`) | Design clean editorial-style interfaces with a warm monochrome palette |
-| *"brutalist interface", "industrial style"* | `elite-workflows-and-taste` (`industrial-brutalist-ui`) | Design raw mechanical interfaces with rigid grids and military-terminal aesthetics |
-| *"design like a premium agency", "luxury interface"* | `elite-workflows-and-taste` (`high-end-visual-design`) | Design like a high-end agency: fonts, spacing, shadows, cards |
-| *"gsap motion effects", "premium animation"* | `elite-workflows-and-taste` (`gpt-taste`) | Apply advanced UX/UI and GSAP motion design |
-| *"upgrade old website", "redesign project"* | `elite-workflows-and-taste` (`redesign-existing-projects`) | Audit current design and upgrade websites and apps to premium quality |
+| *"brutalist interface", "raw mechanical ui"* | `elite-workflows-and-taste` (`industrial-brutalist-ui`) | Design raw mechanical interfaces with rigid grids and military-terminal aesthetics |
+| *"design like a premium agency", "agency-grade interface"* | `elite-workflows-and-taste` (`high-end-visual-design`) | Design like a high-end agency: fonts, spacing, shadows, cards |
+| *"gsap motion effects", "gsap"* | `elite-workflows-and-taste` (`gpt-taste`) | Apply advanced UX/UI and GSAP motion design |
+| *"upgrade old website", "redesign existing project"* | `elite-workflows-and-taste` (`redesign-existing-projects`) | Audit current design and upgrade websites and apps to premium quality |
 | *"brand identity", "brand kit", "design logo"* | `elite-workflows-and-taste` (`brandkit`) | Generate premium brand-guidelines boards and logo systems |
 | *"draw p5js art", "algorithmic art"* | `developer-power-skills` (`algorithmic-art`) | Create algorithmic art with p5.js and seeded randomness |
 | *"canvas design", "make poster png pdf"* | `developer-power-skills` (`canvas-design`) | Create visual art as .png and .pdf documents from a design philosophy |
-| *"draw data chart", "metrics dashboard", "visual report"* | `developer-power-skills` (`lieflat-charts`) | Create charts, data visualizations and dashboards |
+| *"draw data chart", "metrics dashboard", "visual report", "data visualization"* | `developer-power-skills` (`lieflat-charts`) | Create charts, data visualizations and dashboards |
 | *"illustrate article", "insert illustrations"* | `baoyu-creative-suite` (`baoyu-article-illustrator`) | Analyze an article, find where visuals belong and generate illustrations |
 | *"compress image", "reduce image size"* | `baoyu-creative-suite` (`baoyu-compress-image`) | Compress images to WebP or PNG with automatic tool selection |
 | *"format markdown", "normalize markdown"* | `baoyu-creative-suite` (`baoyu-format-markdown`) | Format text with frontmatter, titles, summaries, headings, lists and code blocks |
@@ -144,7 +144,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"create chrome extension", "chrome add-on"* | `modern-web-guidance-plugin` (`chrome-extensions`) | Develop Chrome extensions following best practices |
 | *"modern web standards", "web best practices"* | `modern-web-guidance-plugin` (`modern-web-guidance`) | Apply modern web guidance |
 | *"web performance", "core web vitals", "lcp score"* | `developer-power-skills` (`web-perf`) | Measure web performance with Chrome DevTools MCP: FCP, LCP, TBT, CLS |
-| *"optimize seo", "search engine"* | `antigravity-kit-plugin` (`seo-fundamentals`) | Apply SEO fundamentals to a website |
+| *"optimize seo", "google ranking"* | `antigravity-kit-plugin` (`seo-fundamentals`) | Apply SEO fundamentals to a website |
 | *"next.js", "react expert"* | `antigravity-kit-plugin` (`nextjs-react-expert`) | Advise on and write expert Next.js/React code |
 | *"node.js best practices", "node backend"* | `antigravity-kit-plugin` (`nodejs-best-practices`) | Apply Node.js best practices |
 | *"react best practices", "react composition"* | `developer-power-skills` (`vercel-react-best-practices` / `vercel-composition-patterns`) | Apply React best practices and composition patterns |
