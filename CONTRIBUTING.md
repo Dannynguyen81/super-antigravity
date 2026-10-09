@@ -1,10 +1,12 @@
+**🌐** 🇻🇳 Tiếng Việt · [🇬🇧 English](CONTRIBUTING.en.md)
+
 # 🤝 Hướng Dẫn Đóng Góp Tri Thức — SecondBrain (CONTRIBUTING.md)
 
-Chào mừng các thành viên cùng tham gia hoàn thiện và mở rộng kho tri thức số SecondBrain! Hệ thống vận hành theo **Mô hình Vòng Đời Tri Thức (Knowledge Lifecycle)**, bảo đảm tính an toàn, nhất quán và minh bạch.
+Chào mừng các thành viên cùng tham gia hoàn thiện và mở rộng kho tri thức số SecondBrain! Hệ thống vận hành theo **Mô hình Vòng Đời Tri Thức**, bảo đảm tính an toàn, nhất quán và minh bạch.
 
 ---
 
-## 🔄 1. Vòng Đời Thăng Cấp Tri Thức (Promotion Lifecycle)
+## 🔄 1. Vòng Đời Thăng Cấp Tri Thức
 
 Mọi tài liệu trong kho đều dịch chuyển theo 4 nấc thang giá trị:
 
@@ -54,7 +56,7 @@ python scripts/kiem-tra-suc-khoe-brain.py
 
 ---
 
-## 🔒 3. Quy Tắc Bảo Mật Tuyệt Đối (Zero-Leak)
+## 🔒 3. Quy Tắc Bảo Mật Tuyệt Đối
 
 1. **Không commit thông tin nhạy cảm**:
    - Tuyệt đối không lưu mật khẩu, API keys, token truy cập cá nhân vào file Markdown.

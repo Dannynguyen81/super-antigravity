@@ -1,31 +1,33 @@
+**🌐** 🇻🇳 Tiếng Việt · [🇬🇧 English](AGENTS.en.md)
+
 # 🤖 Quy Tắc Tác Nghiệp & Bản Đồ Ý Định — SUPER-ANTIGRAVITY
 
 > **SUPER-ANTIGRAVITY**: Khung vận hành & Hệ sinh thái kỹ năng tinh hoa tối ưu hóa cho **Google Antigravity**.
-> Hỗ trợ nhận diện ý định tự nhiên song ngữ (Tiếng Việt & English), kết hợp chặt chẽ giữa Quản trị Tri thức (Knowledge Lifecycle) và Kỹ thuật Phần mềm (Software Engineering).
+> Nhận diện ý định tự nhiên bằng tiếng Việt, kết hợp chặt chẽ giữa Quản trị Tri thức và Kỹ thuật Phần mềm.
 
 ---
 
 ## 1. Bản Sắc & Nguyên Tắc Tác Nghiệp Cốt Lõi
 
-1. **Nói có sách, mách có chứng (Evidence-First)**:
+1. **Nói có sách, mách có chứng**:
    - Khi tư vấn kỹ thuật hoặc tra cứu quy trình, AI bắt buộc phải trích dẫn mã hiệu, file:line hoặc đường dẫn nguồn thực tế.
    - Không suy diễn hoặc bịa đặt số liệu kỹ thuật, SLA hay tham số API.
 
-2. **Chống AI Slop & Full-Output Policy (Zero Placeholder)**:
+2. **Chống mã rác do AI & Chính sách đầu ra đầy đủ (không để trống)**:
    - Cấm hoàn toàn các đoạn mã viết tắt: `// TODO: code tiếp`, `/* giữ nguyên */`, `...`.
    - Mọi mã nguồn sinh ra phải chạy được ngay, đầy đủ và nguyên vẹn.
 
-3. **Kỷ luật Cổng Kiểm Soát Chất Lượng (Quality Gate Discipline)**:
+3. **Kỷ luật Cổng Kiểm Soát Chất Lượng**:
    - Tuân thủ quy trình 5 bước: `spec` ➔ `plan-review` ➔ `implementation` ➔ `qa` ➔ `ship & handoff`.
 
-4. **Bảo toàn Cấu trúc Vòng Đời Tri Thức (Knowledge Lifecycle)**:
+4. **Bảo toàn Cấu trúc Vòng Đời Tri Thức**:
    - `40-knowledge/`: Tri thức chuẩn mực (SOPs, Runbooks).
    - `10-inbox/` và `30-working/`: Nơi tiếp nhận và xử lý bản thảo đang thực hiện.
    - `50-outputs/`: Sản phẩm bàn giao hoàn chỉnh.
 
 ---
 
-## 2. Thứ Tự Tra Cứu Tri Thức (Hierarchy of Truth)
+## 2. Thứ Tự Tra Cứu Tri Thức
 
 Khi nhận câu hỏi hoặc yêu cầu nghiệp vụ, AI tra cứu theo thứ tự ưu tiên:
 1. **`40-knowledge/`**: Quy chuẩn, quy trình vận hành (SOP), cẩm nang sự cố (Runbooks).
@@ -37,7 +39,7 @@ Khi nhận câu hỏi hoặc yêu cầu nghiệp vụ, AI tra cứu theo thứ t
 
 ---
 
-## 3. Bộ Phân Loại Ý Định Tự Nhiên (Natural Intent Classifier)
+## 3. Bộ Phân Loại Ý Định Tự Nhiên
 
 Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùng để kích hoạt kỹ năng hoặc plugin tương ứng:
 
@@ -54,7 +56,7 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"tư vấn luật", "tra cứu nghị định", "quy định pháp luật", "điều khoản"* | `skills/tu-van-phap-luat` | Tra cứu và dẫn chiếu văn bản quy phạm pháp luật Việt Nam có hiệu lực |
 | *"máy tính chậm", "dọn rác máy", "tối ưu windows", "giải phóng ram"* | `skills/cham-soc-may-tinh` | Kiểm tra hệ thống và chạy quy trình bảo dưỡng máy tính Windows |
 
-### ⚡ Phân hệ 2: Quy Trình Phát Triển Cao Cấp (Elite Workflows - gstack)
+### ⚡ Phân hệ 2: Quy Trình Phát Triển Cao Cấp (gstack)
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |
 | :--- | :--- | :--- |
 | *"lập spec", "viết đặc tả", "tạo bản mô tả yêu cầu"* | `elite-workflows-and-taste` (`spec`) | Tạo tài liệu đặc tả 5 giai đoạn từ ý định sơ khởi |
@@ -66,7 +68,7 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"nén context", "dọn dẹp hội thoại", "quản lý ngữ cảnh"* | `elite-workflows-and-taste` (`strategic-compact`) | Nén bộ nhớ phiên làm việc để tránh tràn token |
 | *"tra cứu mã nguồn", "tìm kiếm cấu trúc code", "tìm hàm"* | `elite-workflows-and-taste` (`smart-explore`) | Quét cấu trúc AST tree-sitter để tìm kiếm biểu tượng chính xác |
 
-### 🎨 Phân hệ 3: Giao Diện, Đồ Họa & Sáng Tạo Nội Dung (Baoyu & UI Pro)
+### 🎨 Phân hệ 3: Giao Diện, Đồ Họa & Sáng Tạo Nội Dung
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |
 | :--- | :--- | :--- |
 | *"giao diện đẹp", "thiết kế ui", "bảng màu", "style giao diện"* | `antigravity-kit-plugin` (`ui-ux-pro-max`) | Gợi ý phong cách, typography, bảng màu từ 50+ phong cách hiện đại |
