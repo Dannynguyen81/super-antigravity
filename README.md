@@ -41,7 +41,7 @@ SUPER-ANTIGRAVITY/
 │   ├── rules/                     # 4 Core Rules: Anti-slop, Quality Gate, Compaction, Scope-Locking
 │   └── skills/                    # Kỹ năng tự sinh qua quá trình trải nghiệm thực tế
 │
-├── 💎 plugins/                     # 10 Gói Tiện Ích Đóng Gói Chuẩn (mô-đun)
+├── 💎 plugins/                     # 9 Gói Tiện Ích Đóng Gói Chuẩn (mô-đun)
 │   ├── antigravity-autoharness/   # Native Hooks (PreInvocation, PostToolUse) & Friction Trigger
 │   ├── baoyu-creative-suite/      # [Plugin Mới] Bộ 13 công cụ Baoyu: SVG diagram, Infographic, Slide, Dịch thuật
 │   ├── elite-workflows-and-taste/ # Bộ quy trình gstack: spec, plan-review, qa, ship, handoff
@@ -51,7 +51,6 @@ SUPER-ANTIGRAVITY/
 │   ├── modern-web-guidance-plugin/# Best practices web hiện đại & Chrome Extensions
 │   ├── openspec-plugin/           # Quy chuẩn đặc tả và quản lý thay đổi phần mềm OpenSpec
 │   ├── chrome-devtools-plugin/    # Tương tác kiểm thử qua Chrome DevTools MCP
-│   └── android-cli-plugin/        # Tác vụ Android Debug Bridge & CLI
 │
 ├── 🎯 skills/                      # 7 Kỹ Năng Độc Lập Cho Vận Hành & SecondBrain (độc lập)
 │   ├── tra-cuu-sop/               # Tra cứu quy trình vận hành & cẩm nang sự cố (Runbooks)
@@ -94,7 +93,7 @@ SUPER-ANTIGRAVITY/
    ```
 
 ### Cách 2: Cài Đặt Plugins Toàn Cục Vào Antigravity
-Nếu bạn muốn sử dụng trọn bộ 10 plugins của SUPER-ANTIGRAVITY cho mọi dự án trên máy:
+Nếu bạn muốn sử dụng trọn bộ 9 plugins của SUPER-ANTIGRAVITY cho mọi dự án trên máy:
 ```powershell
 # Chạy script tự động cài đặt 1-click
 .\scripts\install-plugins-global.ps1
