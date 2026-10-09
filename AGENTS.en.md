@@ -25,6 +25,12 @@
    - `10-inbox/` and `30-working/`: where drafts are received and processed.
    - `50-outputs/`: finished deliverables.
 
+5. **An approved implementation plan is mandatory**:
+   - Before editing code or creating/deleting files, the AI must write an **Implementation Plan** stating: goal, scope, affected files, steps, risks and how it will be tested.
+   - Present the plan to the user and **wait for explicit user approval** before implementing. Silence or the original request does not count as approval.
+   - If the plan changes (added scope, new direction), present it again and obtain fresh approval.
+   - Only pure lookup questions that change no files may skip this.
+
 ---
 
 ## 2. Hierarchy of Truth

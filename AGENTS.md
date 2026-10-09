@@ -25,6 +25,12 @@
    - `10-inbox/` và `30-working/`: Nơi tiếp nhận và xử lý bản thảo đang thực hiện.
    - `50-outputs/`: Sản phẩm bàn giao hoàn chỉnh.
 
+5. **Kế hoạch triển khai phải được phê duyệt (bắt buộc)**:
+   - Trước khi sửa mã, tạo hoặc xóa file, AI phải lập **Kế hoạch triển khai (Implementation Plan)** nêu rõ: mục tiêu, phạm vi, danh sách file bị tác động, các bước, rủi ro và cách kiểm thử.
+   - Trình kế hoạch cho người dùng và **chờ người dùng phê duyệt rõ ràng** mới được triển khai. Không tự coi im lặng hoặc yêu cầu ban đầu là đã phê duyệt.
+   - Kế hoạch thay đổi (thêm phạm vi, đổi hướng) phải trình lại và được phê duyệt lại.
+   - Chỉ được bỏ qua với câu hỏi thuần tra cứu, không thay đổi tệp nào.
+
 ---
 
 ## 2. Thứ Tự Tra Cứu Tri Thức

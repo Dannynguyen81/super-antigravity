@@ -96,3 +96,15 @@ class LanguageHygieneTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PlanApprovalRuleTest(unittest.TestCase):
+    def test_rule_present_in_both_languages(self) -> None:
+        for name, needles in (
+            ("AGENTS.md", ("Kế hoạch triển khai", "phê duyệt")),
+            ("AGENTS.en.md", ("Implementation Plan", "approval")),
+            (".agents/rules/quality-gate-workflows.md", ("Implementation Plan", "phê duyệt")),
+        ):
+            text = (ROOT / name).read_text(encoding="utf-8")
+            for needle in needles:
+                self.assertIn(needle, text, f"{name}: thiếu quy tắc phê duyệt kế hoạch ('{needle}')")
