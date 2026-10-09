@@ -1,6 +1,8 @@
+**🌐 Ngôn ngữ / Language:** 🇻🇳 Tiếng Việt · [🇬🇧 English](README.en.md)
+
 # 🚀 SUPER-ANTIGRAVITY
 
-> **The Ultimate Battle-Tested Operating Harness & Skill Ecosystem for Google Antigravity.**
+> **Khung vận hành tinh hoa đã được thực chiến và hệ sinh thái kỹ năng dành cho Google Antigravity.**
 > Biến Google Antigravity từ một trợ lý AI thông thường thành một hệ điều hành kỹ thuật tự học, chống suy thoái chất lượng mã, tích hợp quản trị tri thức vòng đời và quy chuẩn công nghệ cao cấp.
 
 [![Antigravity](https://img.shields.io/badge/Antigravity-2.0%2B-blue?style=for-the-badge&logo=google)](https://antigravity.google.com)
@@ -11,31 +13,31 @@
 
 ---
 
-## ⚡ 1. Tại Sao Cần SUPER-ANTIGRAVITY? (Why Super Antigravity?)
+## ⚡ 1. Vì Sao Cần SUPER-ANTIGRAVITY?
 
 Mặc dù **Google Antigravity** sở hữu năng lực suy luận và can thiệp hệ thống vượt trội, các lập trình viên thường xuyên gặp phải 6 rào cản cố hữu trong các dự án thực tế. **SUPER-ANTIGRAVITY** được thiết kế để khắc phục triệt để từng điểm nghẽn:
 
 | Điểm Nghẽn Cố Hữu của Antigravity | Giải Pháp Tích Hợp Trong SUPER-ANTIGRAVITY |
 | :--- | :--- |
-| ❌ **Quên bài học phiên cũ**: Phiên sau lặp lại lỗi phiên trước, mất thời gian chỉnh lại prompt. | 🧠 **Self-Learning Harness Engine**: Tự động bắt lỗi (Dynamic Friction Trigger), đúc kết bài học qua lệnh `/learn` và lưu vào `.agents/rules/` để tái sử dụng vĩnh viễn. |
-| ❌ **Bệnh code lười / Cắt xén (AI Slop)**: Thường sinh `// TODO: tự code tiếp`, `/* giữ nguyên */`. | 🛡️ **Zero-Placeholder Policy**: Cơ chế bắt buộc viết mã đầy đủ (`anti-slop-and-full-output`), tự động ngắt quãng an toàn (Safe Token Breakpoint) khi chạm ngưỡng token. |
-| ❌ **Tràn Context & Tiêu hao Token**: Đọc mã cồng kềnh, phân tích lan man, mau quên mục tiêu ban đầu. | ⚡ **Strategic Compactor & Smart Explore**: Cơ chế chủ động nén bộ nhớ phiên làm việc kết hợp bóc tách cây cú pháp AST (tree-sitter) để chỉ đọc đúng mã cần sửa. |
-| ❌ **Thiếu kỷ luật kiểm soát chất lượng (Quality Gate)**: Code xong vội vã báo xong mà chưa chạy test. | 🚦 **5-Gate Elite Workflows (gstack)**: Buộc Agent tuân thủ chu trình nghiêm ngặt: `spec` ➔ `plan-review` ➔ `implementation` ➔ `qa` ➔ `ship & handoff`. |
-| ❌ **Giao diện sinh ra thô sơ, thiếu thẩm mỹ**: UI đơn điệu, màu sắc xỉn màu kiểu AI sinh mẫu. | 🎨 **Anti-Slop Design Trio**: Bộ tam thẩm mỹ `impeccable` + `design-taste-frontend` + `ui-ux-pro-max` đảm bảo sản phẩm đạt chuẩn thương mại cao cấp. |
-| ❌ **Thiếu kết nối tri thức cục bộ (Local Knowledge)**: Không có nơi lưu trữ SOP, runbooks, biên bản. | 💎 **SecondBrain Knowledge Lifecycle**: 6 phân tầng quản trị tri thức chuẩn mực tương thích 100% với Obsidian Graph View. |
-| ❌ **Đoán mò yêu cầu & Vội vàng gõ code lung tung**: Nhận lệnh mơ hồ là code ngay, sinh lỗi trật hướng. | 🎯 **Scope-Locking & Grill-Me Protocol**: Tự động kích hoạt phỏng vấn trắc nghiệm 2-3 câu hỏi then chốt để khóa cứng phạm vi trước khi code. |
+| ❌ **Quên bài học phiên cũ**: Phiên sau lặp lại lỗi phiên trước, mất thời gian chỉnh lại prompt. | 🧠 **Bộ máy tự học**: Tự động bắt lỗi (kích hoạt theo ma sát động), đúc kết bài học qua lệnh `/learn` và lưu vào `.agents/rules/` để tái sử dụng vĩnh viễn. |
+| ❌ **Bệnh code lười / Cắt xén (AI Slop)**: Thường sinh `// TODO: tự code tiếp`, `/* giữ nguyên */`. | 🛡️ **Chính sách không để trống mã**: Cơ chế bắt buộc viết mã đầy đủ (`anti-slop-and-full-output`), tự động ngắt quãng an toàn (điểm ngắt token an toàn) khi chạm ngưỡng token. |
+| ❌ **Tràn Context & Tiêu hao Token**: Đọc mã cồng kềnh, phân tích lan man, mau quên mục tiêu ban đầu. | ⚡ **Nén ngữ cảnh chiến lược & Khám phá thông minh**: Cơ chế chủ động nén bộ nhớ phiên làm việc kết hợp bóc tách cây cú pháp AST (tree-sitter) để chỉ đọc đúng mã cần sửa. |
+| ❌ **Thiếu kỷ luật kiểm soát chất lượng (Quality Gate)**: Code xong vội vã báo xong mà chưa chạy test. | 🚦 **Quy trình tinh hoa 5 cổng (gstack)**: Buộc Agent tuân thủ chu trình nghiêm ngặt: `spec` ➔ `plan-review` ➔ `implementation` ➔ `qa` ➔ `ship & handoff`. |
+| ❌ **Giao diện sinh ra thô sơ, thiếu thẩm mỹ**: UI đơn điệu, màu sắc xỉn màu kiểu AI sinh mẫu. | 🎨 **Bộ ba thẩm mỹ chống slop**: Bộ tam thẩm mỹ `impeccable` + `design-taste-frontend` + `ui-ux-pro-max` đảm bảo sản phẩm đạt chuẩn thương mại cao cấp. |
+| ❌ **Thiếu kết nối tri thức cục bộ (Local Knowledge)**: Không có nơi lưu trữ SOP, runbooks, biên bản. | 💎 **Vòng đời tri thức SecondBrain**: 6 phân tầng quản trị tri thức chuẩn mực tương thích 100% với Obsidian Graph View. |
+| ❌ **Đoán mò yêu cầu & Vội vàng gõ code lung tung**: Nhận lệnh mơ hồ là code ngay, sinh lỗi trật hướng. | 🎯 **Giao thức khóa phạm vi & phỏng vấn làm rõ**: Tự động kích hoạt phỏng vấn trắc nghiệm 2-3 câu hỏi then chốt để khóa cứng phạm vi trước khi code. |
 
 ---
 
-## 📂 2. Kiến Trúc Hệ Thống (Architecture Map)
+## 📂 2. Kiến Trúc Hệ Thống
 
 ```text
 SUPER-ANTIGRAVITY/
-├── 🤖 .agents/                     # Tầng Tự Học & Điều Phối (AutoHarness Engine)
+├── 🤖 .agents/                     # Tầng Tự Học & Điều Phối
 │   ├── rules/                     # 4 Core Rules: Anti-slop, Quality Gate, Compaction, Scope-Locking
 │   └── skills/                    # Kỹ năng tự sinh qua quá trình trải nghiệm thực tế
 │
-├── 💎 plugins/                     # 10 Gói Tiện Ích Đóng Gói Chuẩn (Modular Plugins)
+├── 💎 plugins/                     # 10 Gói Tiện Ích Đóng Gói Chuẩn (mô-đun)
 │   ├── antigravity-autoharness/   # Native Hooks (PreInvocation, PostToolUse) & Friction Trigger
 │   ├── baoyu-creative-suite/      # [Plugin Mới] Bộ 13 công cụ Baoyu: SVG diagram, Infographic, Slide, Dịch thuật
 │   ├── elite-workflows-and-taste/ # Bộ quy trình gstack: spec, plan-review, qa, ship, handoff
@@ -47,7 +49,7 @@ SUPER-ANTIGRAVITY/
 │   ├── chrome-devtools-plugin/    # Tương tác kiểm thử qua Chrome DevTools MCP
 │   └── android-cli-plugin/        # Tác vụ Android Debug Bridge & CLI
 │
-├── 🎯 skills/                      # 7 Kỹ Năng Độc Lập Cho Vận Hành & SecondBrain (Standalone)
+├── 🎯 skills/                      # 7 Kỹ Năng Độc Lập Cho Vận Hành & SecondBrain (độc lập)
 │   ├── tra-cuu-sop/               # Tra cứu quy trình vận hành & cẩm nang sự cố (Runbooks)
 │   ├── soan-bien-ban-hop/         # Chuyển ghi chú thô thành biên bản họp chuyên nghiệp
 │   ├── lap-checklist-ca/          # Sinh bảng kiểm tra bàn giao ca trực có checkbox
@@ -56,7 +58,7 @@ SUPER-ANTIGRAVITY/
 │   ├── viet-chuyen-nghiep/        # Tòa soạn AI - biên tập ngôn ngữ chuyên môn, sắc bén
 │   └── cham-soc-may-tinh/         # Tối ưu hóa, dọn dẹp và bảo dưỡng máy tính Windows
 │
-├── 🧠 Vòng Đời Tri Thức (Obsidian Knowledge Lifecycle):
+├── 🧠 Vòng Đời Tri Thức (Obsidian):
 │   ├── 10-inbox/                  # Phễu tiếp nhận tài liệu thô, ghi chú nhanh
 │   ├── 20-sources/                # Nguồn tham khảo gốc, tài liệu bóc tách từ inbox
 │   ├── 30-working/                # Không gian làm việc, dự án đang chạy, checklist ca
@@ -65,14 +67,14 @@ SUPER-ANTIGRAVITY/
 │   └── 90-archive/                # Lưu trữ lịch sử các giai đoạn trước
 │
 ├── ⚡ scripts/                      # Bộ công cụ tự động hóa 1-Click
-├── 📋 AGENTS.md                     # Bộ định tuyến ý định tự nhiên song ngữ (Intent Classifier)
+├── 📋 AGENTS.md                     # Bộ định tuyến ý định tự nhiên (phân loại ý định)
 ├── 🧭 SOUL.md                       # Triết lý tác nghiệp & Đạo đức AI
 └── 📖 README.md                     # Tài liệu hướng dẫn sử dụng
 ```
 
 ---
 
-## 🚀 3. Hướng Dẫn Cài Đặt 1-Click (Quickstart)
+## 🚀 3. Hướng Dẫn Cài Đặt 1-Click
 
 ### Cách 1: Sử Dụng Trực Tiếp Làm Workspace (Khuyến Nghị)
 1. Clone repo về máy:
@@ -96,11 +98,11 @@ Nếu bạn muốn sử dụng trọn bộ 10 plugins của SUPER-ANTIGRAVITY ch
 
 ---
 
-## 💬 4. Điều Khiển Bằng Tiếng Việt Tự Nhiên (Natural Language Intents)
+## 💬 4. Điều Khiển Bằng Tiếng Việt Tự Nhiên (có thể gõ tiếng Anh)
 
 Bạn chỉ cần trò chuyện tự nhiên, hệ sinh thái sẽ tự động kích hoạt module phù hợp:
 
-* *"Lập đặc tả tính năng mới"* ➔ Kích hoạt `spec` (Elite Workflows).
+* *"Lập đặc tả tính năng mới"* ➔ Kích hoạt `spec` (quy trình tinh hoa).
 * *"Review ý tưởng này dưới góc nhìn CEO"* ➔ Kích hoạt `plan-ceo-review`.
 * *"Review kiến trúc kỹ thuật và tải hệ thống"* ➔ Kích hoạt `plan-eng-review`.
 * *"Tìm bug và kiểm thử giao diện"* ➔ Kích hoạt `qa`.
@@ -116,15 +118,15 @@ Bạn chỉ cần trò chuyện tự nhiên, hệ sinh thái sẽ tự động k
 
 ---
 
-## 🤝 5. Đóng Góp Phát Triển (Contributing)
+## 🤝 5. Đóng Góp Phát Triển
 
 Mọi đóng góp nhằm hoàn thiện khung vận hành SUPER-ANTIGRAVITY đều được chào đón! Vui lòng đọc [CONTRIBUTING.md](CONTRIBUTING.md) để nắm rõ:
 - Quy chuẩn tạo Pull Request.
-- Quy định bảo toàn vòng đời tri thức (Zero-Pollution).
-- Tiêu chuẩn Full-Output cho các đóng góp mã nguồn.
+- Quy định bảo toàn vòng đời tri thức (không gây ô nhiễm).
+- Tiêu chuẩn đầu ra đầy đủ cho các đóng góp mã nguồn.
 
 ---
 
-## 📄 6. Giấy Phép (License)
+## 📄 6. Giấy Phép
 
 Dự án được phân phối dưới giấy phép **MIT License**. Tự do sử dụng, tùy biến và chia sẻ cho mục đích cá nhân lẫn thương mại.
