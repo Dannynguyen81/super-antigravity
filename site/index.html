@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUPER-ANTIGRAVITY — Khung vận hành cho Google Antigravity</title>
+  <meta name="description" content="Khung vận hành và hệ sinh thái kỹ năng cho Google Antigravity.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content" data-i18n="nav.skip">Bỏ qua, tới nội dung</a>
+
+  <header class="top">
+    <a class="brand" href="#">SUPER-ANTIGRAVITY</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#problems" data-i18n="nav.problems">Vì sao cần</a>
+      <a href="#structure" data-i18n="nav.structure">Kiến trúc</a>
+      <a href="#quickstart" data-i18n="nav.quickstart">Cài đặt</a>
+      <a href="#intents" data-i18n="nav.intents">Ra lệnh tự nhiên</a>
+      <a href="#contribute" data-i18n="nav.contribute">Đóng góp</a>
+    </nav>
+    <div class="langswitch" data-lang-switch>
+      <button type="button" class="langswitch__button" id="lang-button" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu" data-i18n-attr="aria-label:nav.lang" aria-label="Đổi ngôn ngữ">
+        <span aria-hidden="true">🌐</span> <span data-lang-current>VI</span>
+      </button>
+      <ul class="langswitch__menu" id="lang-menu" role="listbox" aria-labelledby="lang-button" hidden>
+        <li role="option" aria-selected="true"><button type="button" data-lang="vi">Tiếng Việt <span>VI</span></button></li>
+        <li role="option" aria-selected="false"><button type="button" data-lang="en">English <span>EN</span></button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Khung vận hành đã được thực chiến</p>
+      <h1 data-i18n="hero.title">Biến Google Antigravity thành hệ điều hành kỹ thuật tự học</h1>
+      <p class="lead" data-i18n="hero.lead">Chống suy thoái chất lượng mã, quản trị tri thức theo vòng đời và quy chuẩn công nghệ cao cấp, điều khiển bằng tiếng Việt tự nhiên.</p>
+      <p class="actions">
+        <a class="btn btn--primary" href="#quickstart" data-i18n="hero.cta1">Bắt đầu cài đặt</a>
+        <a class="btn" href="https://github.com/dannynguyen81/super-antigravity" data-i18n="hero.cta2">Xem trên GitHub</a>
+      </p>
+    </section>
+
+    <section id="problems">
+      <h2 data-i18n="problems.title">Vì sao cần SUPER-ANTIGRAVITY?</h2>
+      <p class="sub" data-i18n="problems.lead">Bảy điểm nghẽn thường gặp, mỗi điểm một giải pháp tích hợp sẵn.</p>
+      <div class="grid">
+        <article class="card"><h3 data-i18n="problems.p1.t">Bộ máy tự học</h3><p data-i18n="problems.p1.d">Tự bắt lỗi, đúc kết bài học qua lệnh /learn và lưu vào .agents/rules/ để dùng lại vĩnh viễn.</p></article>
+        <article class="card"><h3 data-i18n="problems.p2.t">Không để trống mã</h3><p data-i18n="problems.p2.d">Bắt buộc viết mã đầy đủ, ngắt an toàn khi chạm ngưỡng token thay vì cắt xén.</p></article>
+        <article class="card"><h3 data-i18n="problems.p3.t">Nén ngữ cảnh chiến lược</h3><p data-i18n="problems.p3.d">Chủ động nén bộ nhớ phiên và đọc cây cú pháp AST để chỉ đọc đúng mã cần sửa.</p></article>
+        <article class="card"><h3 data-i18n="problems.p4.t">Quy trình 5 cổng chất lượng</h3><p data-i18n="problems.p4.d">spec, plan-review, implementation, qa, ship và handoff, không báo xong khi chưa kiểm thử.</p></article>
+        <article class="card"><h3 data-i18n="problems.p5.t">Bộ ba thẩm mỹ chống slop</h3><p data-i18n="problems.p5.d">impeccable, design-taste-frontend và ui-ux-pro-max giữ giao diện ở chuẩn thương mại cao cấp.</p></article>
+        <article class="card"><h3 data-i18n="problems.p6.t">Vòng đời tri thức SecondBrain</h3><p data-i18n="problems.p6.d">Sáu tầng quản trị tri thức, tương thích hoàn toàn với Obsidian Graph View.</p></article>
+        <article class="card"><h3 data-i18n="problems.p7.t">Khóa phạm vi trước khi code</h3><p data-i18n="problems.p7.d">Phỏng vấn trắc nghiệm 2-3 câu then chốt để chốt yêu cầu rồi mới bắt tay làm.</p></article>
+      </div>
+    </section>
+
+    <section id="structure">
+      <h2 data-i18n="structure.title">Kiến trúc hệ thống</h2>
+      <p class="sub" data-i18n="structure.lead">Tài liệu đi qua các tầng từ thô tới thành phẩm.</p>
+      <ol class="tiers">
+        <li><code>10-inbox/</code><span data-i18n="structure.s10">Phễu tiếp nhận tài liệu thô, ghi chú nhanh</span></li>
+        <li><code>20-sources/</code><span data-i18n="structure.s20">Nguồn tham khảo gốc, tài liệu bóc tách từ inbox</span></li>
+        <li><code>30-working/</code><span data-i18n="structure.s30">Không gian làm việc, checklist ca, biên bản</span></li>
+        <li><code>40-knowledge/</code><span data-i18n="structure.s40">Chân lý cốt lõi: SOP, Runbook</span></li>
+        <li><code>50-outputs/</code><span data-i18n="structure.s50">Thành phẩm phát hành: báo cáo, công văn</span></li>
+        <li><code>90-archive/</code><span data-i18n="structure.s90">Lưu trữ lịch sử các giai đoạn trước</span></li>
+      </ol>
+    </section>
+
+    <section id="quickstart">
+      <h2 data-i18n="quick.title">Cài đặt một chạm</h2>
+      <h3 data-i18n="quick.opt1.title">Cách 1: dùng trực tiếp làm workspace (khuyến nghị)</h3>
+      <ol>
+        <li><span data-i18n="quick.opt1.s1">Clone repo về máy.</span>
+          <pre><code>git clone https://github.com/dannynguyen81/super-antigravity.git
+cd super-antigravity</code></pre></li>
+        <li data-i18n="quick.opt1.s2">Mở thư mục bằng Google Antigravity IDE, Cursor hoặc VS Code.</li>
+        <li data-i18n="quick.opt1.s3">Mở bằng Obsidian (Open folder as vault) để xem đồ thị tri thức.</li>
+        <li><span data-i18n="quick.opt1.s4">Chạy script thiết lập trên Windows.</span>
+          <pre><code>.\scripts\setup-windows.ps1</code></pre></li>
+      </ol>
+      <h3 data-i18n="quick.opt2.title">Cách 2: cài plugin toàn cục vào Antigravity</h3>
+      <p data-i18n="quick.opt2.desc">Dùng đủ 10 plugin cho mọi dự án trên máy.</p>
+      <pre><code>.\scripts\install-plugins-global.ps1</code></pre>
+    </section>
+
+    <section id="intents">
+      <h2 data-i18n="intents.title">Ra lệnh bằng ngôn ngữ tự nhiên</h2>
+      <p class="sub" data-i18n="intents.lead">Cứ nói tự nhiên, hệ thống tự kích hoạt đúng mô-đun.</p>
+      <ul class="intents">
+        <li><q data-i18n="intents.i1">Lập đặc tả tính năng mới</q> <code>spec</code></li>
+        <li><q data-i18n="intents.i2">Tra cứu quy trình tiếp nhận yêu cầu và SLA</q> <code>tra-cuu-sop</code></li>
+        <li><q data-i18n="intents.i3">Soạn biên bản cuộc họp giao ban sáng nay</q> <code>soan-bien-ban-hop</code></li>
+        <li><q data-i18n="intents.i4">Tìm bug và kiểm thử giao diện</q> <code>qa</code></li>
+        <li><q data-i18n="intents.i5">Vẽ sơ đồ kiến trúc hệ thống chuẩn SVG</q> <code>baoyu-diagram</code></li>
+        <li><q data-i18n="intents.i6">Deploy worker lên Cloudflare</q> <code>cloudflare-suite</code></li>
+      </ul>
+    </section>
+
+    <section id="contribute">
+      <h2 data-i18n="contrib.title">Đóng góp</h2>
+      <p data-i18n="contrib.desc">Mọi đóng góp hoàn thiện khung vận hành đều được chào đón. Đọc hướng dẫn về quy chuẩn Pull Request, bảo toàn vòng đời tri thức và đầu ra đầy đủ.</p>
+      <p><a class="btn" href="https://github.com/dannynguyen81/super-antigravity/blob/main/CONTRIBUTING.md" data-i18n="contrib.link">Đọc hướng dẫn đóng góp</a></p>
+    </section>
+  </main>
+
+  <footer class="foot"><p data-i18n="foot.license">Phát hành theo giấy phép MIT. Tự do sử dụng, tùy biến và chia sẻ.</p></footer>
+</body>
+</html>

@@ -1,4 +1,8 @@
-**🌐 Ngôn ngữ / Language:** 🇻🇳 Tiếng Việt · [🇬🇧 English](README.en.md)
+<p align="center">
+  <strong>Tiếng Việt</strong> |
+  <a href="README.en.md">English</a> |
+  <a href="site/index.html">Trang web</a>
+</p>
 
 # 🚀 SUPER-ANTIGRAVITY
 
