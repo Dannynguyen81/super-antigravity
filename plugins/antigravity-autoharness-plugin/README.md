@@ -26,6 +26,9 @@ Tự động học hỏi từ các phiên làm việc thực tế, phân loại 
    - Cơ chế khóa file tương thích Windows (`msvcrt`) và Unix (`fcntl`) chống race condition khi mở nhiều cửa sổ terminal.
 6. **Bảo Toàn Kỹ Năng Do Người Dùng Viết**:
    - Tuyệt đối chỉ quản lý và đào thải các kỹ năng do AI tự tạo (`created_by: agent`). Không bao giờ xâm phạm các kỹ năng do lập trình viên tự viết.
+7. **Cổng An Toàn Lệnh Phá Hoại (`PreToolUse`)**:
+   - `src/safety_gate.py` chặn các lệnh phá hoại có độ tin cậy cao trước khi chạy: xóa gốc hệ thống, `mkfs`, `dd` ghi đĩa, định dạng ổ đĩa, xóa gốc ổ Windows.
+   - Đây **không phải sandbox**, chỉ là lớp bổ sung. Dữ liệu hỏng hoặc thiếu lệnh thì cho qua để không khóa cả phiên. Xem `NOTICE.md` về nguồn gốc.
 
 ---
 
