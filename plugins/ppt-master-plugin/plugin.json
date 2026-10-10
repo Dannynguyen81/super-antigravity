@@ -1,0 +1,12 @@
+{
+  "name": "ppt-master-plugin",
+  "version": "6.7.0",
+  "description": "Tạo, làm đẹp và điền mẫu bài trình chiếu PPTX chỉnh sửa được từ PDF, DOCX, URL, Markdown (nguồn: hugohe3/ppt-master, MIT).",
+  "author": {
+    "name": "Hugo He",
+    "url": "https://github.com/hugohe3"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hugohe3/ppt-master",
+  "keywords": ["pptx", "presentation", "slides", "powerpoint"]
+}

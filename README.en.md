@@ -41,7 +41,7 @@ SUPER-ANTIGRAVITY/
 │   ├── rules/                     # 4 core rules: Anti-slop, Quality Gate, Compaction, Scope-Locking
 │   └── skills/                    # Skills generated from real-world experience
 │
-├── 💎 plugins/                     # 9 standard modular plugin packages
+├── 💎 plugins/                     # 10 standard modular plugin packages
 │   ├── antigravity-autoharness/   # Native hooks (PreInvocation, PostToolUse) & Friction Trigger
 │   ├── baoyu-creative-suite/      # [New] 13 Baoyu tools: SVG diagram, infographic, slides, translation
 │   ├── elite-workflows-and-taste/ # gstack workflows: spec, plan-review, qa, ship, handoff
@@ -51,6 +51,7 @@ SUPER-ANTIGRAVITY/
 │   ├── modern-web-guidance-plugin/# Modern web best practices & Chrome Extensions
 │   ├── openspec-plugin/           # OpenSpec specification and software change management
 │   ├── chrome-devtools-plugin/    # Interactive testing via Chrome DevTools MCP
+│   └── ppt-master-plugin/         # [New] Create, polish and template-fill editable PPTX (source: ppt-master)
 │
 ├── 🎯 skills/                      # 7 standalone skills for operations & SecondBrain
 │   ├── tra-cuu-sop/               # Look up operating procedures & incident runbooks
@@ -95,7 +96,7 @@ SUPER-ANTIGRAVITY/
    ```
 
 ### Option 2: Install Plugins Globally into Antigravity
-To use all 9 SUPER-ANTIGRAVITY plugins for every project on your machine:
+To use all 10 SUPER-ANTIGRAVITY plugins for every project on your machine:
 ```powershell
 # Run the one-click install script
 .\scripts\install-plugins-global.ps1

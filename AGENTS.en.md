@@ -69,6 +69,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"write word file", "create docx", "edit word document"* | `developer-power-skills` (`docx`) | Create, read and edit Word .docx files, preserving formatting and tracked changes |
 | *"make powerpoint file", "create pptx", "edit slide file"* | `developer-power-skills` (`pptx`) | Create and edit .pptx presentations |
 | *"read pdf file", "merge pdf", "split pdf", "fill pdf form"* | `developer-power-skills` (`pdf`) | Extract, merge, split, fill forms and OCR PDF files |
+| *"ppt master", "pptx from pdf", "beautify pptx", "fill pptx template", "slide narration"* | `ppt-master-plugin` (`ppt-master`) | Create editable PPTX from PDF/DOCX/URL/Markdown, beautify an existing PPTX, fill native templates, add narration and animation |
 
 ### ⚡ Group 2: Elite Development Workflows (gstack)
 | User phrasing / need | Plugin / skill activated | Agent action |

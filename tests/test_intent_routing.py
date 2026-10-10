@@ -113,6 +113,8 @@ class SampleRoutingTest(unittest.TestCase):
         ("động não ý tưởng cho sản phẩm mới", "brainstorming"),
         ("điều phối nhiều agent cho việc này", "coordinator-mode"),
         ("tìm chuỗi cứng trong giao diện", "i18n-localization"),
+        ("làm đẹp file pptx này", "ppt-master"),
+        ("tạo pptx từ pdf báo cáo", "ppt-master"),
     )
     CASES_EN = (
         ("look up procedure for onboarding", "tra-cuu-sop"),
@@ -134,6 +136,7 @@ class SampleRoutingTest(unittest.TestCase):
         ("write design spec for the app", "design-spec"),
         ("brainstorm ideas for onboarding", "brainstorming"),
         ("find hard-coded strings", "i18n-localization"),
+        ("fill pptx template with data", "ppt-master"),
     )
 
     def assert_routes(self, router: str, cases) -> None:

@@ -69,6 +69,7 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"soạn file word", "tạo docx", "chỉnh tài liệu word"* | `developer-power-skills` (`docx`) | Tạo, đọc, sửa tài liệu Word .docx, giữ định dạng và theo dõi thay đổi |
 | *"làm file powerpoint", "tạo pptx", "sửa file slide"* | `developer-power-skills` (`pptx`) | Tạo và chỉnh bài trình chiếu .pptx |
 | *"đọc file pdf", "gộp pdf", "tách pdf", "điền form pdf"* | `developer-power-skills` (`pdf`) | Trích xuất, gộp, tách, điền biểu mẫu và OCR tệp PDF |
+| *"ppt master", "pptx từ pdf", "làm đẹp file pptx", "điền mẫu pptx", "thuyết minh slide"* | `ppt-master-plugin` (`ppt-master`) | Tạo PPTX chỉnh sửa được từ PDF/DOCX/URL/Markdown, làm đẹp PPTX có sẵn, điền mẫu gốc, thêm thuyết minh và hiệu ứng |
 
 ### ⚡ Phân hệ 2: Quy Trình Phát Triển Cao Cấp (gstack)
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |

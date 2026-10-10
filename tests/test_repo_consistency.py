@@ -1,6 +1,7 @@
 """Số liệu và liên kết trong tài liệu phải khớp với nội dung thật của repo."""
 from __future__ import annotations
 
+import json
 import re
 import unittest
 from pathlib import Path
@@ -155,3 +156,29 @@ class AntigravityKitSkillsTest(unittest.TestCase):
         script = self.BASE / "i18n-localization/scripts/i18n_checker.py"
         out = subprocess.run([sys.executable, "-I", str(script), str(ROOT / "site")], capture_output=True, text=True)
         self.assertEqual(out.returncode, 0, out.stdout + out.stderr)
+
+
+class PptMasterTest(unittest.TestCase):
+    BASE = ROOT / "plugins/ppt-master-plugin"
+    SKILL = BASE / "skills/ppt-master"
+
+    def test_imported_verbatim_with_attribution_files(self) -> None:
+        for name in ("SKILL.md", "LICENSE", "SPONSORS.md", "SPONSORS_CN.md", "scripts/attribution_guard.py"):
+            self.assertTrue((self.SKILL / name).is_file(), name)
+
+    def test_upstream_integrity_guard_passes(self) -> None:
+        import subprocess, sys
+        out = subprocess.run([sys.executable, "-I", str(self.SKILL / "scripts/attribution_guard.py")],
+                             capture_output=True, text=True)
+        self.assertEqual(out.returncode, 0, out.stdout + out.stderr)
+
+    def test_manifest_and_notice(self) -> None:
+        manifest = json.loads((self.BASE / "plugin.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["name"], "ppt-master-plugin")
+        self.assertEqual(manifest["license"], "MIT")
+        notice = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
+        for needle in ("hugohe3/ppt-master", "v6.7.0", "nguyên bản"):
+            self.assertIn(needle, notice)
+
+    def test_env_example_not_ignored(self) -> None:
+        self.assertIn("!.env.example", (ROOT / ".gitignore").read_text(encoding="utf-8"))
