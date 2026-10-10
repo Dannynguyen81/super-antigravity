@@ -104,6 +104,9 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"openspec xác minh thay đổi", "đồng bộ spec"* | `openspec-plugin` (`openspec-verify-change` / `openspec-sync-specs`) | Xác minh thay đổi đã triển khai đúng, đồng bộ spec delta vào spec chính |
 | *"openspec lưu trữ thay đổi", "openspec lưu trữ hàng loạt"* | `openspec-plugin` (`openspec-archive-change` / `openspec-bulk-archive-change`) | Lưu trữ một hoặc nhiều thay đổi OpenSpec đã hoàn tất |
 | *"openspec khám phá thay đổi", "làm quen openspec"* | `openspec-plugin` (`openspec-explore` / `openspec-onboard`) | Khảo sát ý tưởng trước khi đổi hoặc hướng dẫn làm quen OpenSpec |
+| *"chạy thử để chứng minh", "xác nhận mã chạy được", "kiểm chứng bằng cách chạy"* | `antigravity-kit-plugin` (`verify-changes`) | Chứng minh thay đổi hoạt động bằng cách chạy thật, không chỉ đọc mã |
+| *"động não ý tưởng", "khám phá phương án", "hỏi làm rõ yêu cầu"* | `antigravity-kit-plugin` (`brainstorming`) | Đặt câu hỏi gợi mở theo 4 pha trước khi triển khai, không thay thế khóa phạm vi |
+| *"điều phối nhiều agent", "chạy agent song song", "phối hợp chuyên gia"* | `antigravity-kit-plugin` (`coordinator-mode`) | Phân rã tác vụ, trình kế hoạch chờ duyệt, giao việc song song rồi tổng hợp |
 
 ### 🎨 Phân hệ 3: Giao Diện, Đồ Họa & Sáng Tạo Nội Dung
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |
@@ -134,6 +137,7 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"định dạng markdown", "chuẩn hóa markdown"* | `baoyu-creative-suite` (`baoyu-format-markdown`) | Định dạng văn bản: frontmatter, tiêu đề, tóm tắt, danh sách, khối mã |
 | *"markdown sang html", "xuất bài wechat"* | `baoyu-creative-suite` (`baoyu-markdown-to-html`) | Chuyển Markdown thành HTML có giao diện, hỗ trợ code, toán, Mermaid |
 | *"tạo artifact html", "web artifact"* | `developer-power-skills` (`web-artifacts-builder`) | Dựng artifact HTML nhiều thành phần bằng công nghệ frontend hiện đại |
+| *"viết design spec", "tạo design.md", "định nghĩa design token"* | `antigravity-kit-plugin` (`design-spec`) | Lập tệp `DESIGN.md` (token màu, phông, lý do thiết kế) trước khi dựng giao diện |
 
 ### 💻 Phân hệ 4: Kỹ Thuật Lập Trình & Cloudflare
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |
@@ -160,3 +164,4 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"đối tượng bền vững", "websocket có trạng thái"* | `cloudflare-suite` (`durable-objects`) | Thiết kế Durable Objects: trạng thái, WebSocket, đồng bộ |
 | *"tổng quan cloudflare", "kv d1 r2", "workers ai"* | `cloudflare-suite` (`cloudflare`) | Tra cứu nền tảng Cloudflare: Workers, Pages, KV, D1, R2, Workers AI |
 | *"sandbox chạy mã an toàn", "code interpreter"* | `developer-power-skills` (`sandbox-sdk`) | Xây ứng dụng sandbox thực thi mã an toàn |
+| *"đa ngôn ngữ", "chuỗi cứng", "i18n", "bản địa hóa"* | `antigravity-kit-plugin` (`i18n-localization`) | Phát hiện chuỗi cứng, kiểm tra file ngôn ngữ thiếu khóa, hỗ trợ RTL |

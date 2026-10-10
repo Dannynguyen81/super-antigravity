@@ -104,6 +104,9 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"openspec verify change", "sync specs"* | `openspec-plugin` (`openspec-verify-change` / `openspec-sync-specs`) | Verify a change was implemented correctly and sync delta specs into main specs |
 | *"openspec archive change", "openspec bulk archive"* | `openspec-plugin` (`openspec-archive-change` / `openspec-bulk-archive-change`) | Archive one or many completed OpenSpec changes |
 | *"openspec explore change", "get started with openspec"* | `openspec-plugin` (`openspec-explore` / `openspec-onboard`) | Explore ideas before changing or onboard to OpenSpec |
+| *"run it to prove it works", "confirm the code runs", "verify by execution"* | `antigravity-kit-plugin` (`verify-changes`) | Prove a change works by actually running it, not by inspecting it |
+| *"brainstorm ideas", "explore options", "clarify requirements"* | `antigravity-kit-plugin` (`brainstorming`) | Ask Socratic questions in 4 phases before implementation; does not replace scope-locking |
+| *"coordinate multiple agents", "run agents in parallel", "orchestrate specialists"* | `antigravity-kit-plugin` (`coordinator-mode`) | Decompose the task, present the plan for approval, dispatch workers in parallel and synthesize |
 
 ### 🎨 Group 3: UI, Graphics & Content Creation (Baoyu & UI Pro)
 | User phrasing / need | Plugin / skill activated | Agent action |
@@ -134,6 +137,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"format markdown", "normalize markdown"* | `baoyu-creative-suite` (`baoyu-format-markdown`) | Format text with frontmatter, titles, summaries, headings, lists and code blocks |
 | *"markdown to html", "export wechat article"* | `baoyu-creative-suite` (`baoyu-markdown-to-html`) | Convert Markdown to styled HTML with code highlighting, math and Mermaid |
 | *"create html artifact", "web artifact"* | `developer-power-skills` (`web-artifacts-builder`) | Build multi-component HTML artifacts with modern frontend technology |
+| *"write design spec", "create design.md", "define design tokens"* | `antigravity-kit-plugin` (`design-spec`) | Author a `DESIGN.md` (color and type tokens, rationale) before building any UI |
 
 ### 💻 Group 4: Software Engineering & Cloudflare
 | User phrasing / need | Plugin / skill activated | Agent action |
@@ -160,3 +164,4 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"persistent objects", "stateful websocket"* | `cloudflare-suite` (`durable-objects`) | Design Durable Objects: state, WebSockets, coordination |
 | *"cloudflare overview", "kv d1 r2", "workers ai"* | `cloudflare-suite` (`cloudflare`) | Reference the Cloudflare platform: Workers, Pages, KV, D1, R2, Workers AI |
 | *"sandbox to run code safely", "code interpreter"* | `developer-power-skills` (`sandbox-sdk`) | Build sandboxed applications for secure code execution |
+| *"multi-language", "hard-coded strings", "i18n", "localization"* | `antigravity-kit-plugin` (`i18n-localization`) | Detect hard-coded strings, check locale files for missing keys and support RTL |

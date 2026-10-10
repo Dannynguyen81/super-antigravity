@@ -108,6 +108,11 @@ class SampleRoutingTest(unittest.TestCase):
         ("xây mcp server trên cloudflare", "building-mcp-server-on-cloudflare"),
         ("cần đối tượng bền vững giữ phòng chat", "durable-objects"),
         ("viết script powershell dọn thư mục", "powershell-windows"),
+        ("tạo design.md cho dự án", "design-spec"),
+        ("chạy thử để chứng minh tính năng hoạt động", "verify-changes"),
+        ("động não ý tưởng cho sản phẩm mới", "brainstorming"),
+        ("điều phối nhiều agent cho việc này", "coordinator-mode"),
+        ("tìm chuỗi cứng trong giao diện", "i18n-localization"),
     )
     CASES_EN = (
         ("look up procedure for onboarding", "tra-cuu-sop"),
@@ -126,6 +131,9 @@ class SampleRoutingTest(unittest.TestCase):
         ("improve web performance, check lcp score", "web-perf"),
         ("build mcp server on cloudflare", "building-mcp-server-on-cloudflare"),
         ("write a powershell script", "powershell-windows"),
+        ("write design spec for the app", "design-spec"),
+        ("brainstorm ideas for onboarding", "brainstorming"),
+        ("find hard-coded strings", "i18n-localization"),
     )
 
     def assert_routes(self, router: str, cases) -> None:

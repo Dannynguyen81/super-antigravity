@@ -129,3 +129,29 @@ class ContextBudgetRuleTest(unittest.TestCase):
         text = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
         for needle in ("vudovn/antigravity-kit", "MIT", "VUDOVN"):
             self.assertIn(needle, text)
+
+
+class AntigravityKitSkillsTest(unittest.TestCase):
+    BASE = ROOT / "plugins/antigravity-kit-plugin/skills"
+
+    def test_imported_skills_present(self) -> None:
+        for name in ("design-spec", "verify-changes", "brainstorming", "i18n-localization", "coordinator-mode"):
+            self.assertTrue((self.BASE / name / "SKILL.md").is_file(), name)
+
+    def test_no_dangling_workflow_or_memory_references(self) -> None:
+        for name in ("design-spec", "verify-changes", "brainstorming", "i18n-localization", "coordinator-mode"):
+            for f in (self.BASE / name).rglob("*.md"):
+                text = f.read_text(encoding="utf-8")
+                for bad in ("/remember", ".agents/memory", "design-rules.md", "/orchestrate", "/coordinate", "/brainstorm", "/verify"):
+                    self.assertNotIn(bad, text, f"{f.relative_to(ROOT)}: còn tham chiếu '{bad}'")
+
+    def test_coordinator_keeps_approval_gate_and_reference(self) -> None:
+        text = (self.BASE / "coordinator-mode/SKILL.md").read_text(encoding="utf-8")
+        self.assertIn("Approval gate", text)
+        self.assertTrue((self.BASE / "coordinator-mode/references/parallel-agents.md").is_file())
+
+    def test_i18n_checker_runs(self) -> None:
+        import subprocess, sys
+        script = self.BASE / "i18n-localization/scripts/i18n_checker.py"
+        out = subprocess.run([sys.executable, "-I", str(script), str(ROOT / "site")], capture_output=True, text=True)
+        self.assertEqual(out.returncode, 0, out.stdout + out.stderr)
