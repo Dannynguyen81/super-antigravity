@@ -24,7 +24,7 @@ Mọi tài liệu trong kho đều dịch chuyển theo 4 nấc thang giá trị
 
 ## 🌿 2. Quy Trình Đóng Góp Qua Git & GitHub
 
-### Bước 1: Tạo nhánh mới (Branch)
+### Bước 1: Tạo nhánh mới
 - Soạn quy trình/tài liệu mới: `feature/them-[ten-tai-lieu]`
 - Sửa đổi quy trình hiện có: `hotfix/sua-[ma-hieu]`
 - Cập nhật biểu mẫu/checklist: `docs/cap-nhat-[ten-form]`

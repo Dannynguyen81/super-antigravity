@@ -84,7 +84,7 @@ SUPER-ANTIGRAVITY/
 ### Option 1: Use Directly as a Workspace (Recommended)
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/super-antigravity.git
+   git clone https://github.com/Dannynguyen81/super-antigravity.git
    cd super-antigravity
    ```
 2. Open the folder with **Google Antigravity IDE** or **Cursor / VS Code**.

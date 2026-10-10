@@ -82,7 +82,7 @@ SUPER-ANTIGRAVITY/
 ### Cách 1: Sử Dụng Trực Tiếp Làm Workspace (Khuyến Nghị)
 1. Clone repo về máy:
    ```bash
-   git clone https://github.com/<your-username>/super-antigravity.git
+   git clone https://github.com/Dannynguyen81/super-antigravity.git
    cd super-antigravity
    ```
 2. Mở thư mục này bằng **Google Antigravity IDE** hoặc **Cursor / VS Code**.
