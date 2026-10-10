@@ -201,3 +201,15 @@ class GeminiWatermarkToolTest(unittest.TestCase):
         notice = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
         self.assertIn("gemini_watermark_remover.py", notice)
         self.assertIn("ghi chú nội dung do AI tạo", notice)
+
+
+class PptMasterSecurityNoticeTest(unittest.TestCase):
+    def test_security_notes_present(self) -> None:
+        notice = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
+        self.assertIn("Lưu Ý Bảo Mật Khi Dùng PPT Master", notice)
+        for needle in ("môi trường ảo", "update_repo.py", "*_BASE_URL", "127.0.0.1", "Không commit `.env`"):
+            self.assertIn(needle, notice)
+
+    def test_update_repo_is_inert_in_this_layout(self) -> None:
+        # update_repo.py chỉ chạy được trong kho Git riêng; thư mục plugin không được có .git.
+        self.assertFalse((ROOT / "plugins/ppt-master-plugin/.git").exists())

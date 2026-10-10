@@ -28,6 +28,19 @@ Một số nội dung trong repo này được chắt lọc và điều chỉnh 
 - **Công cụ gỡ watermark Gemini** (`scripts/gemini_watermark_remover.py`): giữ và dùng theo quyết định của chủ repo. Script xử lý cục bộ bằng Pillow và NumPy, không gọi mạng. Chỉ dùng cho ảnh bạn có quyền xử lý, tuân thủ điều khoản dịch vụ của Gemini và nên ghi chú nội dung do AI tạo khi công bố.
 - **Cài thư viện**: chạy `pip install -r plugins/ppt-master-plugin/skills/ppt-master/requirements.txt` khi cần dùng.
 
+## Lưu Ý Bảo Mật Khi Dùng PPT Master
+
+Kết quả rà soát tĩnh (không chạy mã) ngày nhập repo: không thấy mã độc; không có `exec`, `pickle`, `os.system`, `shell=True`; mọi lời gọi `subprocess` truyền danh sách đối số; không có tệp nhị phân thực thi; SVG không chứa script. Khi dùng thật, cần lưu ý:
+
+1. **Cài thư viện trong môi trường ảo** (`python -m venv`). `requirements.txt` của upstream chỉ ghim cận dưới (`>=`), nên cân nhắc khóa phiên bản.
+2. **Khóa API** (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `OPENROUTER_API_KEY`, `PEXELS_API_KEY`…) đặt qua biến môi trường. Không commit `.env`. Không đặt biến `*_BASE_URL` trỏ tới địa chỉ lạ, vì khóa sẽ được gửi tới đó.
+3. **Không chạy `update_repo.py`**: script chạy `git pull` và `pip install`. Trong bố cục này nó tự dừng vì thư mục không phải kho Git, nhưng không nên dựa vào điều đó.
+4. **Giao diện cục bộ** (`confirm_ui`, `spec_review`, `svg_editor`) chỉ lắng nghe `127.0.0.1`, không có đăng nhập. Chỉ chạy khi cần và tắt sau khi dùng.
+5. **Windows**: tệp PPTX đầu ra được cấp quyền đọc cho nhóm Users cục bộ.
+6. **Công cụ ngoài** có thể được gọi: `ffmpeg`, `ffprobe`, `pandoc`, `magick`, PowerShell.
+
+Hạn chế của lần rà soát: chưa đọc từng dòng của 301 tệp Python và chưa chạy thử.
+
 ## Lưu Ý Về Hook An Toàn
 
 `safety_gate.py` chỉ chặn một số mẫu lệnh phá hoại có độ tin cậy cao. Đây **không phải sandbox**. Cơ chế quyền và tin cậy không gian làm việc của Antigravity vẫn là hàng rào chính.
