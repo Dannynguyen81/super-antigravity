@@ -108,3 +108,24 @@ class PlanApprovalRuleTest(unittest.TestCase):
             text = (ROOT / name).read_text(encoding="utf-8")
             for needle in needles:
                 self.assertIn(needle, text, f"{name}: thiếu quy tắc phê duyệt kế hoạch ('{needle}')")
+
+
+class ContextBudgetRuleTest(unittest.TestCase):
+    def test_rule_file_and_references(self) -> None:
+        rule = (ROOT / ".agents/rules/context-budget.md").read_text(encoding="utf-8")
+        self.assertIn("tối đa 2-3 kỹ năng", rule)
+        self.assertTrue(rule.startswith("---\nname: context-budget"))
+        for name, needle in (("AGENTS.md", "Ngân sách ngữ cảnh"), ("AGENTS.en.md", "Context budget")):
+            text = (ROOT / name).read_text(encoding="utf-8")
+            self.assertIn(needle, text, name)
+            self.assertIn(".agents/rules/context-budget.md", text, name)
+
+    def test_validation_ladder_in_quality_gate(self) -> None:
+        text = (ROOT / ".agents/rules/quality-gate-workflows.md").read_text(encoding="utf-8")
+        for level in ("P0", "P1", "P1.5", "P2", "P3", "P4"):
+            self.assertIn(f"| {level} |", text)
+
+    def test_notice_credits_upstream(self) -> None:
+        text = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
+        for needle in ("vudovn/antigravity-kit", "MIT", "VUDOVN"):
+            self.assertIn(needle, text)

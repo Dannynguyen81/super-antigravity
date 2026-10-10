@@ -24,6 +24,18 @@ flowchart LR
 4. **Gate 4 - Quality Assurance (`qa` & `test-audit`)**: Chạy kiểm thử động, rà soát lỗi API/CLI/UI thực tế, kiểm tra biên độ lỗi.
 5. **Gate 5 - Ship & Handoff (`ship` & `handoff`)**: Tạo PR/Commit chuẩn mực, tài liệu hóa bàn giao `HANDOFF.md` để bất kỳ ai cũng có thể tiếp quản.
 
+### Thang Kiểm Tra Trước Khi Giao (Gate 4)
+Chạy theo thứ tự ưu tiên, mục nào lỗi thì sửa trước khi sang mục sau:
+
+| Mức | Kiểm tra | Mục đích |
+| :--- | :--- | :--- |
+| P0 | Quét bảo mật (`vulnerability-scanner`, `security-review`) | Lỗ hổng, lộ bí mật |
+| P1 | Độ tương phản màu | Đạt WCAG AA |
+| P1.5 | Rà soát UX (`impeccable`) | Các định luật tâm lý UX |
+| P2 | Vùng chạm | Dùng được trên di động |
+| P3 | Hiệu năng (`web-perf`) | Core Web Vitals, SEO |
+| P4 | Kiểm thử đầu cuối (`webapp-testing`) | Luồng thực tế chạy được |
+
 ## 2. Tiêu Chuẩn Thực Nghiệm
 - **Không bằng chứng = Không khẳng định**: Mọi khẳng định hoàn thành phải kèm kết quả lệnh terminal, file:line cụ thể hoặc log kiểm thử thực tế.
 - **Không triển khai khi chưa được phê duyệt**: Chưa có Implementation Plan được người dùng đồng ý thì không sửa mã hay tạo/xóa file.

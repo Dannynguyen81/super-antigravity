@@ -31,6 +31,10 @@
    - If the plan changes (added scope, new direction), present it again and obtain fresh approval.
    - Only pure lookup questions that change no files may skip this.
 
+6. **Context budget**:
+   - Load at most 2-3 skills per task, in 3 tiers (description always available, `SKILL.md` body when relevant, `references/` only when deep knowledge is needed).
+   - Details in `.agents/rules/context-budget.md`.
+
 ---
 
 ## 2. Hierarchy of Truth

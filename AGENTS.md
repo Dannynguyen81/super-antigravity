@@ -31,6 +31,10 @@
    - Kế hoạch thay đổi (thêm phạm vi, đổi hướng) phải trình lại và được phê duyệt lại.
    - Chỉ được bỏ qua với câu hỏi thuần tra cứu, không thay đổi tệp nào.
 
+6. **Ngân sách ngữ cảnh**:
+   - Mỗi tác vụ chỉ nạp tối đa 2-3 kỹ năng, nạp theo 3 tầng (mô tả luôn có, thân `SKILL.md` khi liên quan, `references/` khi cần sâu).
+   - Chi tiết tại `.agents/rules/context-budget.md`.
+
 ---
 
 ## 2. Thứ Tự Tra Cứu Tri Thức
