@@ -69,6 +69,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"write word file", "create docx", "edit word document"* | `developer-power-skills` (`docx`) | Create, read and edit Word .docx files, preserving formatting and tracked changes |
 | *"make powerpoint file", "create pptx", "edit slide file"* | `developer-power-skills` (`pptx`) | Create and edit .pptx presentations |
 | *"read pdf file", "merge pdf", "split pdf", "fill pdf form"* | `developer-power-skills` (`pdf`) | Extract, merge, split, fill forms and OCR PDF files |
+| *"ppt master", "pptx from pdf", "beautify pptx", "fill pptx template", "slide narration"* | `ppt-master-plugin` (`ppt-master`) | Create editable PPTX from PDF/DOCX/URL/Markdown, beautify an existing PPTX, fill native templates, add narration and animation |
 
 ### ⚡ Group 2: Elite Development Workflows (gstack)
 | User phrasing / need | Plugin / skill activated | Agent action |
@@ -138,6 +139,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"markdown to html", "export wechat article"* | `baoyu-creative-suite` (`baoyu-markdown-to-html`) | Convert Markdown to styled HTML with code highlighting, math and Mermaid |
 | *"create html artifact", "web artifact"* | `developer-power-skills` (`web-artifacts-builder`) | Build multi-component HTML artifacts with modern frontend technology |
 | *"write design spec", "create design.md", "define design tokens"* | `antigravity-kit-plugin` (`design-spec`) | Author a `DESIGN.md` (color and type tokens, rationale) before building any UI |
+| *"remove gemini watermark", "erase gemini logo from image"* | `ppt-master-plugin` (`ppt-master`) | Run `scripts/gemini_watermark_remover.py` to remove the Gemini mark from the bottom-right of images you generated; local processing, no network. Disclose AI-generated content when publishing |
 
 ### 💻 Group 4: Software Engineering & Cloudflare
 | User phrasing / need | Plugin / skill activated | Agent action |

@@ -59,7 +59,7 @@ window.SAG_I18N = {
     "quick.opt1.s3": { vi: "Mở bằng Obsidian (Open folder as vault) để xem đồ thị tri thức.", en: "Open it in Obsidian (Open folder as vault) to browse the knowledge graph." },
     "quick.opt1.s4": { vi: "Chạy script thiết lập trên Windows.", en: "Run the setup script on Windows." },
     "quick.opt2.title": { vi: "Cách 2: cài plugin toàn cục vào Antigravity", en: "Option 2: install plugins globally into Antigravity" },
-    "quick.opt2.desc": { vi: "Dùng đủ 9 plugin cho mọi dự án trên máy.", en: "Use all 9 plugins for every project on your machine." },
+    "quick.opt2.desc": { vi: "Dùng đủ 10 plugin cho mọi dự án trên máy.", en: "Use all 10 plugins for every project on your machine." },
 
     "intents.title": { vi: "Ra lệnh bằng ngôn ngữ tự nhiên", en: "Control it in natural language" },
     "intents.lead": { vi: "Cứ nói tự nhiên, hệ thống tự kích hoạt đúng mô-đun.", en: "Just talk naturally; the right module activates automatically." },
