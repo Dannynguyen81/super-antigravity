@@ -139,6 +139,7 @@ The agent automatically recognizes the user's natural phrasing (Vietnamese or En
 | *"markdown to html", "export wechat article"* | `baoyu-creative-suite` (`baoyu-markdown-to-html`) | Convert Markdown to styled HTML with code highlighting, math and Mermaid |
 | *"create html artifact", "web artifact"* | `developer-power-skills` (`web-artifacts-builder`) | Build multi-component HTML artifacts with modern frontend technology |
 | *"write design spec", "create design.md", "define design tokens"* | `antigravity-kit-plugin` (`design-spec`) | Author a `DESIGN.md` (color and type tokens, rationale) before building any UI |
+| *"remove gemini watermark", "erase gemini logo from image"* | `ppt-master-plugin` (`ppt-master`) | Run `scripts/gemini_watermark_remover.py` to remove the Gemini mark from the bottom-right of images you generated; local processing, no network. Disclose AI-generated content when publishing |
 
 ### 💻 Group 4: Software Engineering & Cloudflare
 | User phrasing / need | Plugin / skill activated | Agent action |

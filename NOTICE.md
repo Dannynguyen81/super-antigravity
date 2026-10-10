@@ -25,6 +25,7 @@ Một số nội dung trong repo này được chắt lọc và điều chỉnh 
 - **Giấy phép**: MIT, Copyright (c) 2025-2026 Hugo He
 - **Vị trí**: `plugins/ppt-master-plugin/skills/ppt-master/` được chép **nguyên bản, không chỉnh sửa**.
 - **Ràng buộc**: skill có cổng toàn vẹn (`scripts/attribution_guard.py`) và dừng hẳn nếu `LICENSE`, `SPONSORS.md`, `SPONSORS_CN.md` hoặc metadata nguồn bị sửa hoặc xóa. Không được chỉnh các tệp này.
+- **Công cụ gỡ watermark Gemini** (`scripts/gemini_watermark_remover.py`): giữ và dùng theo quyết định của chủ repo. Script xử lý cục bộ bằng Pillow và NumPy, không gọi mạng. Chỉ dùng cho ảnh bạn có quyền xử lý, tuân thủ điều khoản dịch vụ của Gemini và nên ghi chú nội dung do AI tạo khi công bố.
 - **Cài thư viện**: chạy `pip install -r plugins/ppt-master-plugin/skills/ppt-master/requirements.txt` khi cần dùng.
 
 ## Lưu Ý Về Hook An Toàn

@@ -139,6 +139,7 @@ Agent tự động nhận diện khẩu ngữ tiếng Việt của người dùn
 | *"markdown sang html", "xuất bài wechat"* | `baoyu-creative-suite` (`baoyu-markdown-to-html`) | Chuyển Markdown thành HTML có giao diện, hỗ trợ code, toán, Mermaid |
 | *"tạo artifact html", "web artifact"* | `developer-power-skills` (`web-artifacts-builder`) | Dựng artifact HTML nhiều thành phần bằng công nghệ frontend hiện đại |
 | *"viết design spec", "tạo design.md", "định nghĩa design token"* | `antigravity-kit-plugin` (`design-spec`) | Lập tệp `DESIGN.md` (token màu, phông, lý do thiết kế) trước khi dựng giao diện |
+| *"gỡ watermark gemini", "xóa logo gemini khỏi ảnh"* | `ppt-master-plugin` (`ppt-master`) | Chạy `scripts/gemini_watermark_remover.py` gỡ biểu tượng Gemini ở góc dưới phải ảnh do chính bạn tạo; xử lý cục bộ, không gọi mạng. Nên ghi chú nội dung do AI tạo khi công bố |
 
 ### 💻 Phân hệ 4: Kỹ Thuật Lập Trình & Cloudflare
 | Khẩu ngữ / Nhu cầu người dùng | Plugin / Kỹ năng kích hoạt | Hành động của Agent |

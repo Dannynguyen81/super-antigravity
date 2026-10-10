@@ -182,3 +182,22 @@ class PptMasterTest(unittest.TestCase):
 
     def test_env_example_not_ignored(self) -> None:
         self.assertIn("!.env.example", (ROOT / ".gitignore").read_text(encoding="utf-8"))
+
+
+class GeminiWatermarkToolTest(unittest.TestCase):
+    SCRIPT = ROOT / "plugins/ppt-master-plugin/skills/ppt-master/scripts/gemini_watermark_remover.py"
+
+    def test_script_kept_and_routed(self) -> None:
+        self.assertTrue(self.SCRIPT.is_file())
+        for name in ("AGENTS.md", "AGENTS.en.md"):
+            self.assertIn("gemini_watermark_remover.py", (ROOT / name).read_text(encoding="utf-8"), name)
+
+    def test_script_is_local_only(self) -> None:
+        text = self.SCRIPT.read_text(encoding="utf-8")
+        for banned in ("requests", "urllib", "socket", "subprocess", "http://", "https://"):
+            self.assertNotIn(banned, text, f"script gỡ watermark không được dùng '{banned}'")
+
+    def test_responsible_use_notice(self) -> None:
+        notice = (ROOT / "NOTICE.md").read_text(encoding="utf-8")
+        self.assertIn("gemini_watermark_remover.py", notice)
+        self.assertIn("ghi chú nội dung do AI tạo", notice)
